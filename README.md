@@ -45,22 +45,22 @@ ai-email-calendar-assistant/
 
 ### 1. Clone the Repository
 
-```bash
+
 git clone https://github.com/your-username/ai-email-calendar-assistant.git
 cd ai-email-calendar-assistant
 
-Install Required Python Libraries
+## Install Required Python Libraries
 pip install langchain langchain-google-genai google-generativeai
 pip install google-api-python-client google-auth-httplib2 google-auth-oauthlib
 pip install python-dotenv
 
 
-Add Your Gemini API Key
+## Add Your Gemini API Key
 Visit 👉 https://makersuite.google.com/app/apikey
 
 Copy your API key
 
-Create a .env file in your root folder and add:
+## Create a .env file in your root folder and add:
 
 env
 Copy
@@ -68,7 +68,7 @@ Edit
 GOOGLE_API_KEY=your_gemini_api_key_here
 
 
-Set Up Google Cloud Credentials
+## Set Up Google Cloud Credentials
 Go to 👉 https://console.cloud.google.com
 
 Create a new project (e.g., AI Meeting Agent)
@@ -85,14 +85,14 @@ Click Create Credentials > OAuth Client ID
 
 Application type: Desktop
 
-Download the JSON file and rename it as:
+##Download the JSON file and rename it as:
 
 pgsql
 Copy
 Edit
 credentials.json
 
-Place it in the project root folder
+##Place it in the project root folder
 
 
 ✅ How to Run the Agent
@@ -104,7 +104,7 @@ On first run, a browser will open to authenticate your Google account.
 
 A file token.json will be saved to reuse the session.
 
-The script will:
+##The script will:
 
 🔍 Read your latest email
 
@@ -144,7 +144,7 @@ Add a calendar event titled App Launch Meeting
 
 Set a 10-minute reminder
 
-📌 Future Improvements
+##📌 Future Improvements
 ⏱️ Automatically run every 15–30 mins via scheduler
 
 📨 Process multiple unread emails (batch mode)
