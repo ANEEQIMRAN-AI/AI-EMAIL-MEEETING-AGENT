@@ -83,19 +83,17 @@ Go to APIs & Services > Credentials
 
 Click Create Credentials > OAuth Client ID
 
-Application type: Desktop
-
-##Download the JSON file and rename it as:
+## Application type: Desktop
+Download the JSON file and rename it as:
 
 pgsql
 Copy
 Edit
 credentials.json
 
-##Place it in the project root folder
+Place it in the project root folder
 
-
-✅ How to Run the Agent
+## ✅ How to Run the Agent
 bash
 Copy
 Edit
