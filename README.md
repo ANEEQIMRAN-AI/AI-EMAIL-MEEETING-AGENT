@@ -104,7 +104,7 @@ On first run, a browser will open to authenticate your Google account.
 
 A file token.json will be saved to reuse the session.
 
-##The script will:
+## The script will:
 
 🔍 Read your latest email
 
@@ -113,7 +113,7 @@ A file token.json will be saved to reuse the session.
 📅 Add meeting to Google Calendar (if found)
 
 
-##🧠 How It Works
+## 🧠 How It Works
 Gmail API fetches the latest unread email.
 
 The content is passed to Gemini 1.5 LLM through a LangChain prompt.
@@ -131,7 +131,7 @@ Edit
 }
 If a valid date and time are detected, it creates a Google Calendar event and sets a reminder 10 minutes before the meeting.
 
-##📩 Sample Email It Understands
+## 📩 Sample Email It Understands
 Subject: App Launch
 
 Hey Aneeq, just a reminder that we’ll meet on July 5 at 3:00 PM on Zoom to finalize the launch. See you there!
@@ -144,7 +144,7 @@ Add a calendar event titled App Launch Meeting
 
 Set a 10-minute reminder
 
-##📌 Future Improvements
+## 📌 Future Improvements
 ⏱️ Automatically run every 15–30 mins via scheduler
 
 📨 Process multiple unread emails (batch mode)
@@ -153,5 +153,5 @@ Set a 10-minute reminder
 
 💬 Integrate with voice assistants or chatbots
 
-##📄 License
+## 📄 License
 MIT License © 2025 Aneeq Imran
